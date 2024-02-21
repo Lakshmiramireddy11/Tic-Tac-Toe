@@ -1,7 +1,7 @@
 
 const boxes = document.querySelectorAll('.box');
 const resetBtn = document.querySelector('#reset-btn');
-const newGameBtn = document.querySelector('#newGame'); // Renamed to avoid conflicts with existing variables
+const newGameBtn = document.querySelector('#newGame'); 
 const msgContainer = document.querySelector('.msg-container');
 const msg = document.querySelector('#msg');
 let turno = true;
