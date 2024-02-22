@@ -78,7 +78,7 @@ const checkWinner = () => {
 resetBtn.addEventListener('click', resetgame);
 newGameBtn.addEventListener('click', resetgame); // Added event listener for "New Game" button
 
-// Attach click event listener to all boxes initially
+
 boxes.forEach(box => {
     box.addEventListener('click', boxClickHandler);
 });
